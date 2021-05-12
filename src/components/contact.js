@@ -10,9 +10,9 @@ const Contact = () => {
                 <h2>Tel: +39 36582-4567</h2>
 
                 <span className="footer__socials">
-                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer" ><img src="Assets/iconFblack.png" alt="social Face"/></a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer" ><img src="assets/iconfblack.png" alt="social Face"/></a>
 
-                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" ><img src="Assets/icoYOUblack.png" alt="social Tube"/></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" ><img src="assets/icoyoublack.png" alt="social Tube"/></a>
                 </span>
 
                 <form action="">

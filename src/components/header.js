@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -9,9 +9,9 @@ const Header = () => {
     let images = [];
     if (rota !== "/") {
         addClass = "img2--position";
-        images = ["Assets/cropVert-650.jpg", "Assets/cropVert-1200.jpg", "Assets/cropVert-1500.jpg"]
+        images = ["assets/cropvert-650.jpg", "assets/cropvert-1200.jpg", "assets/cropvert-1500.jpg"]
     } else {
-        images = ["Assets/Capa650.jpg", "Assets/Capa1200.jpg", "Assets/Capa1500.jpg"]
+        images = ["assets/capa650.jpg", "assets/capa1200.jpg", "assets/capa1500.jpg"]
     }
 
     return (
@@ -28,7 +28,7 @@ const Header = () => {
 
                 <span className="nav__logo">
 
-                    <label htmlFor="check" id="labelcheck"><img className="nav__toggler" src="Assets/Tenor-clef-white.png" alt="Toggler" /></label>
+                    <label htmlFor="check" id="labelcheck"><img className="nav__toggler" src="assets/tenor-clef-white.png" alt="Toggler" /></label>
                     <h1 className="nav__title">reno Bortot</h1>
                 </span>
                 <input type="checkbox" id="check" />
